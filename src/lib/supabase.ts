@@ -1,0 +1,41 @@
+import { createClient } from '@supabase/supabase-js';
+
+const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
+const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
+
+if (!supabaseUrl || !supabaseAnonKey) {
+  throw new Error('Missing Supabase environment variables');
+}
+
+export const supabase = createClient(supabaseUrl, supabaseAnonKey);
+
+export interface Project {
+  id: string;
+  title: string;
+  description: string;
+  image_url: string;
+  location: string;
+  year: string;
+  category: string;
+  order_index: number;
+  created_at: string;
+}
+
+export interface Engineer {
+  id: string;
+  name: string;
+  role: string;
+  qualification: string;
+  experience: string;
+  specialization: string;
+  image_url: string;
+  order_index: number;
+  created_at: string;
+}
+
+export interface ContactRequest {
+  name: string;
+  email: string;
+  phone: string;
+  message: string;
+}
