@@ -3,6 +3,8 @@ import { useState } from 'react';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const currentYear = new Date().getFullYear();
+  const companyYears = currentYear - 2003;
 
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
@@ -24,7 +26,9 @@ export default function Header() {
             />
             <div>
               <h1 className="text-xl font-bold text-gray-900">Living Stone Constructions</h1>
-              <p className="text-xs text-gray-600">Building Dreams Since 2013</p>
+              <p className="text-xs text-gray-600">
+                Building Dreams Since 2003 ({companyYears}+ years)
+              </p>
             </div>
           </div>
 

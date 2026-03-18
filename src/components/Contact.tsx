@@ -2,6 +2,9 @@ import { useState } from 'react';
 import { Mail, Phone, MapPin, Send } from 'lucide-react';
 
 export default function Contact() {
+  const currentYear = new Date().getFullYear();
+  const experienceYears = currentYear - 1999;
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -45,7 +48,9 @@ export default function Contact() {
             <div>
               <h3 className="text-2xl font-bold text-gray-900 mb-6">Contact Information</h3>
               <p className="text-gray-700 mb-6 leading-relaxed">
-                Living Stone Constructions was founded by <span className="font-semibold">Er. R. David Raja B.E (Civil), M.Tech (Structural)</span> in 2013.
+                Living Stone Constructions was founded by{' '}
+                <span className="font-semibold">Er. R. David Raja B.E (Civil), M.Tech (Structural)</span> in 2003.
+                He began his engineering career in 1999 and brings {experienceYears}+ years of experience.
                 The company has completed several projects across Tamil Nadu and has brought happiness to more than
                 500+ families. We are registered in CMDA as a developer and are members of the Builders’ Association of India.
               </p>
