@@ -24,7 +24,7 @@ export default function Header() {
             />
             <div>
               <h1 className="text-xl font-bold text-gray-900">Living Stone Constructions</h1>
-              <p className="text-xs text-gray-600">Building Dreams Since 2013</p>
+              <p className="text-xs text-gray-600">Building Dreams Since 2003</p>
             </div>
           </div>
 
