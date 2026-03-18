@@ -2,6 +2,7 @@ import { Building2, Mail, Phone, MapPin, Facebook, Twitter, Instagram } from 'lu
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
+  const experienceYears = currentYear - 1999;
 
   return (
     <footer className="bg-gray-900 text-white">
@@ -15,7 +16,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Living Stone Constructions, founded in 2013 by Er. R. David Raja, delivers quality homes and projects across Tamil Nadu as a CMDA registered developer and member of Builders’ Association of India.
+              Living Stone Constructions, founded in 2003 by Er. R. David Raja (engineering career since 1999 with {experienceYears}+ years of experience), delivers quality homes and projects across Tamil Nadu as a CMDA registered developer and member of Builders’ Association of India.
             </p>
           </div>
 

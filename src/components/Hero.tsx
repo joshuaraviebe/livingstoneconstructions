@@ -1,6 +1,9 @@
 import { ArrowRight, Award, Users, Building } from 'lucide-react';
 
 export default function Hero() {
+  const currentYear = new Date().getFullYear();
+  const experienceYears = currentYear - 1999;
+
   const scrollToContact = () => {
     const element = document.getElementById('contact');
     if (element) {
@@ -19,8 +22,8 @@ export default function Hero() {
                 <span className="text-amber-600"> Creating Happy Homes</span>
               </h2>
               <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-                Living Stone Constructions is a trusted construction company based in Tamil Nadu, founded in 2013 by
-                Er. R. David Raja B.E (Civil), M.Tech (Structural). We have delivered quality homes and projects
+                Living Stone Constructions is a trusted construction company based in Tamil Nadu, established in 2003 by
+                Er. R. David Raja B.E (Civil), M.Tech (Structural), who began his engineering career in 1999 with {experienceYears}+ years of experience. We have delivered quality homes and projects
                 for more than 500+ happy families with a strong focus on structural safety, transparency, and on-time delivery.
               </p>
               <button
@@ -52,7 +55,7 @@ export default function Hero() {
               <div className="bg-amber-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Building className="w-8 h-8 text-amber-600" />
               </div>
-              <h3 className="text-3xl font-bold text-gray-900 mb-2">2013</h3>
+              <h3 className="text-3xl font-bold text-gray-900 mb-2">2003</h3>
               <p className="text-gray-600">Year Established</p>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-lg text-center hover:shadow-xl transition">
@@ -71,7 +74,7 @@ export default function Hero() {
           <div className="max-w-4xl mx-auto text-center mb-12">
             <h2 className="text-4xl font-bold text-gray-900 mb-6">About Livingstone Constructions</h2>
             <p className="text-lg text-gray-700 leading-relaxed">
-              Living Stone Constructions was started in 2013 by Er. R. David Raja B.E (Civil), M.Tech (Structural).
+              Living Stone Constructions was started in 2003 by Er. R. David Raja B.E (Civil), M.Tech (Structural).
               The company has successfully completed several projects across Tamil Nadu and has delivered homes to
               more than 500+ happy families. We are registered in CMDA as a developer and are proud members of the
               Builders’ Association of India.
