@@ -34,7 +34,7 @@ export default function Hero() {
             </div>
             <div className="relative">
               <img
-                src="public/images/Start-image.jpeg"
+                src="/images/Start-image.jpeg"
                 alt="Construction site"
                 className="rounded-2xl shadow-2xl"
               />
