@@ -81,8 +81,8 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">Email</h4>
-                    <p className="text-gray-700">info@livingstoneconstructions.in</p>
-                    <p className="text-gray-700">projects@livingstoneconstructions.in</p>
+                    <p className="text-gray-700">livingstoneconstructions@gmail.com</p>
+                    <p className="text-gray-700">lscdavidraja@gmail.com</p>
                   </div>
                 </div>
               </div>
@@ -92,12 +92,8 @@ export default function Contact() {
               <h4 className="font-bold text-gray-900 mb-3">Business Hours</h4>
               <div className="space-y-2 text-gray-700">
                 <div className="flex justify-between">
-                  <span>Monday - Friday:</span>
+                  <span>Monday - Saturday:</span>
                   <span className="font-semibold">9:00 AM - 6:00 PM</span>
-                </div>
-                <div className="flex justify-between">
-                  <span>Saturday:</span>
-                  <span className="font-semibold">9:00 AM - 2:00 PM</span>
                 </div>
                 <div className="flex justify-between">
                   <span>Sunday:</span>

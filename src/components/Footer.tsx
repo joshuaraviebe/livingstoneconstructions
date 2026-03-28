@@ -53,7 +53,7 @@ export default function Footer() {
             <ul className="space-y-3 text-gray-400 text-sm">
               <li className="flex items-start space-x-2">
                 <MapPin className="w-4 h-4 mt-1 flex-shrink-0 text-amber-600" />
-                <span>No 8, Jeyamani Complex, First Floor, Old Housing Unit, Pudhukottai Road, Thanjavur - 613 007</span>
+                <span>No 7, Jeyamani Complex, First Floor, Old Housing Unit, Pudhukottai Road, Thanjavur - 613 007</span>
               </li>
               <li className="flex items-center space-x-2">
                 <Phone className="w-4 h-4 flex-shrink-0 text-amber-600" />
@@ -87,7 +87,7 @@ export default function Footer() {
                   <Twitter className="w-4 h-4 text-white" />
                 </a>
                 <a
-                  href="https://www.instagram.com/living_stone_constructions?igsh=MmgxeHV5MHo3b2R5&utm_source=qr"
+                  href="https://www.instagram.com/livingstoneconstructions?igsh=MmgxeHV5MHo3b2R5&utm_source=qr"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-9 h-9 rounded-full bg-gray-800 flex items-center justify-center hover:bg-amber-600 transition"
